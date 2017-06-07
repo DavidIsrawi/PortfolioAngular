@@ -3,3 +3,180 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
+
+header.main_nav {
+    padding: 1% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    display: block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li {
+    font-size: 1.5em;
+    display: inline;
+    padding: 0 2%;
+}
+
+.main{
+    padding-top: 3%;
+}
+
+.row {
+    padding: 2% 0;
+}
+
+.green {
+    background-color: #1d74ab;
+}
+
+.back {
+    /*background: url("../images/blueback2.jpg");*/
+    background-color: #1d74ab;
+    height: 100vh;
+    min-width: 100%;
+    background-size: cover;
+}
+
+.logo {
+    margin: 5% auto;
+    text-align: center;
+}
+
+.logo a{
+    font-size: 4em;
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    text-transform: uppercase;
+    padding: 2px 10px 0px 10px;
+    margin: 0;
+}
+
+.logo a:hover {
+    background-color: white;
+    color: rgb(52, 125, 177) !important;
+    color: #7accc8;
+}
+
+p.subtitle {
+    font-size: 1.8em;
+    color: white;
+}
+
+/* Images and Media
+______________________________________________________________ */
+
+img {
+    max-width: 100%;
+}
+
+img.avatar {
+    border-radius: 400px;
+    border: 5px solid white;
+}
+
+img.volunteer {
+    height: 120px;
+    width: 150px;
+}
+
+img.project {
+    max-width: 170px;
+    max-height: 170px;
+}
+
+img.shared {
+    height: 15.7em;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+.repo {
+    color: black;
+}
+
+/* Social Media
+______________________________________________________________ */
+ul.social {
+    display: block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.social li {
+    font-size: 3em;
+    display: inline;
+    padding: 0 2%;
+}
+
+ul.social li a {
+    color: #e4e4e4;
+}
+
+ul.social li.facebook a:hover {
+    color: rgb(59,89,152);
+}
+
+ul.social li.twitter a:hover {
+    color: rgb(0,172,237);
+}
+
+ul.social li.instagram a:hover {
+    color: rgb(237, 179, 81);
+}
+
+ul.social li.youtube a:hover {
+    color: rgb(187,0,0);
+}
+
+ul.social li.flickr a:hover {
+    color: rgb(255,0,132);
+}
+
+ul.social li.linkedin a:hover {
+    color: rgb(24, 196, 213);
+}
+
+ul.social li.github a:hover {
+    color: rgb(32, 32, 32);
+}
+
+ul.social li.email a:hover {
+    color: rgb(59, 207, 154);
+}
+
+/* Footer
+______________________________________________________________ */
+
+h2.bio {
+    color: white;
+}
+
+p.bio {
+    color: white;
+    font-size: 1.4em;
+}
+
+a.bio {
+    color: white;
+    font-size: 1.4em;
+}
+
+/* Footer
+______________________________________________________________ */
+
+p.copyright {
+    text-align: center;
+    color: #666;
+    font-size: 1em;
+}
